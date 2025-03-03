@@ -1,0 +1,102 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image:linear-gradient(to bottom,#3498DB,#2980B9);
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    border:1px solid #66CCCC;
+}
+
+header nav ul{
+    list-style:none;
+    margin:0;
+    display:flex;
+    justify-content:space-between;
+}
+
+header nav ul li{
+    margin-right:20px;
+    
+}
+header nav a{
+    color:#fff;
+    text-decoration:none;
+    transition:color 0.2s ease;
+}
+
+header nav a:hover{
+    color:#66CCCC;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    color:#fff;
+    background-color:#2E4053;
+}
+
+.service-page {
+ padding:20px;
+ background-color:#1A1D23;
+ border:1px solid #66CCCC;
+ box-shadow:0 0 1px rgba(0,0,0,0.1);
+}
+
+.service-page h1{
+    font-size:36px;
+    margin-bottom:10px;
+    color:#66CCCC;
+}
+
+.service-description {
+   margin-bottom:40px;
+   border:1px solid #66CCCC;
+    background-color:#1A1D23;
+}
+
+.service-description h2{
+    font-size:24px;
+    margin-bottom:10px;
+    color:#66CCCC;
+}
+
+.service-description p{
+    font-size:16px;
+    margin-bottom:20px;
+    color:#fff;
+    opacity:0.8;
+}
+
+.service-description ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.service-description li{
+    font-size:16px;
+    margin-bottom:10px;
+    color:#fff;
+    opacity:0.8;
+}
+
+@media only screen and(max-width:768px){
+    .service-page{
+        padding:10px;
+    }
+    .service-description{
+        margin-bottom:20px;
+    }
+    .service-description h2{
+        font-size:18px;
+    }
+    .service-description p{
+        font-size:14px;
+    }
+}

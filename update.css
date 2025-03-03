@@ -1,0 +1,150 @@
+header{
+     background-image:linear-gradient(to bottom,#3498DB,#2980B9);
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    border:1px solid #66CCCC;
+}
+
+header nav ul{
+    list-style:none;
+    margin:0;
+    display:flex;
+    justify-content:space-between;
+}
+
+header nav ul li{
+    margin-right:20px;
+    
+}
+header nav a{
+    color:#fff;
+    text-decoration:none;
+    transition:color 0.2s ease;
+}
+
+header nav a:hover{
+    color:#66CCCC;
+}
+
+
+.update-page {
+  padding:20px;
+  background-color:#1A1D23;
+  border:1px solid #66CCCC;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.update-page h1{
+    font-size:40px;
+    margin-bottom:10px;
+    color:#66CCCC;
+    text-align:center;
+}
+#search-bar{
+    width:100%;
+    padding:10px;
+    font-size:18px;
+    border:10px solid #66CCCC;
+    border-radius:5px;
+    margin-bottom:20px;
+    background-color:#2E4053;
+    color:#fff;
+}
+
+#search-bar:focus{
+    outline:none;
+    border-color:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.university-list{
+     list-style:none;
+     padding:0;
+     margin:0;
+     margin-bottom:20px;
+     padding:20px;
+     background-color:#2E4053;
+     border:1px solid #66CCCC;
+     box-shadow:0 0 10px rgba(0,0,0,0.1);
+     color:#fff;
+}
+
+.bursary-list{
+    list-style:none;
+     padding:0;
+     margin:0;
+     margin-bottom:20px;
+     padding:20px;
+     background-color:#2E4053;
+     border:1px solid #66CCCC;
+     box-shadow:0 0 10px rgba(0,0,0,0.1);
+     color:#fff;
+}
+
+.update-list{
+    list-style:none;
+     padding:0;
+     margin:0;
+     margin-bottom:20px;
+     padding:20px;
+     background-color:#2E4053;
+     border:1px solid #66CCCC;
+     box-shadow:0 0 10px rgba(0,0,0,0.1);
+     color:#fff;
+}
+
+h2{
+    font-size:24px;
+    margin-bottom:10px;
+    color:#fff;
+}
+
+h3{
+    font-size:18px;
+    margin-bottom:10px;
+    color:#fff;
+}
+
+a{
+    text-decoration:none;
+    color:#66CCCC;
+}
+a:hover{
+    color:#fff;
+}
+
+@media only screen and (max-width:768px){
+    .update-page{
+        padding:10px;
+    }
+    #search-bar{
+        font-size:16px;
+    }
+    h1{
+        font-size:28px;
+    }
+    h2{
+        font-size:20px;
+    }
+    h3{
+        font-size:16px;
+    }
+}
+
+@media only screen and (max-width:480pxpx){
+    .update-page{
+        padding:5px;
+    }
+    #search-bar{
+        font-size:14px;
+    }
+    h1{
+        font-size:22px;
+    }
+    h2{
+        font-size:18px;
+    }
+    h3{
+        font-size:14px;
+    }
+}
